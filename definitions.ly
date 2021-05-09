@@ -689,6 +689,9 @@ tocLabelLong = #(define-music-function
 tempoKyrie = \tempoMarkup "Allegro molto"
 
 
+accomp =  \markup \remark  "accomp."
+
+
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/timp.ly"
