@@ -124,6 +124,48 @@ KyrieAltoLyrics = \lyricmode {
   bis. %57 finis
 }
 
+SanctaAltoNotes = {
+  \relative c' {
+    \clef "treble"
+    \key g \dorian \time 4/4 \autoBeamOff \tempoSancta
+    R1*33 %33
+    \mvTr a'2.\pE^\solo e4
+    r8 e e f16([ g)] \appoggiatura g8 f8.([ e16)] d4 %35
+    a'2. e4
+    r8 e e f16([ g)] \appoggiatura g8 f8.([ e16)] d4
+    f f8 fis g8. fis16 g4
+    g8 e16([ d)] c8 g' a8. g16 a4
+    d,8([ e)] f \tuplet 3/2 8 { a16([ b c)] } c4( b)\trill %40
+    a r r2
+    R1
+    c,8 f a8. c16 \appoggiatura c b8([ a16 g)] \appoggiatura f8 e4
+    c8 f a8. c16 \appoggiatura c b8([ a16 g)] \appoggiatura f8 e4
+    r8 f f f d4 \tuplet 6/4 4 { g16[ a b a g f] } %45
+    e4 \tuplet 6/4 4 { a16[ b c b a g] } f4 h\trill
+    c2~ c16[ b a g] \appoggiatura b a8[ g16 f]
+    g2\trill f4 r
+    R1*7 \bar "|" %55 finis
+  }
+}
+
+SanctaAltoLyrics = \lyricmode {
+  Ma -- ter %34
+  in -- vi -- o -- la -- ta, %35
+  ma -- ter
+  in -- te -- me -- ra -- ta,
+  ma -- ter a -- ma -- bi -- lis,
+  ma -- ter ad -- mi -- ra -- bi -- lis,
+  o -- ra pro no -- %40
+  bis.
+
+  Ma -- ter Cre -- a -- to -- ris,
+  ma -- ter Sal -- va -- to -- ris,
+  o -- ra pro no -- _ %45
+  _ _ _ _
+  _ _
+  _ bis. %48 finiss
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

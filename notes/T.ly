@@ -118,6 +118,56 @@ KyrieTenoreLyrics = \lyricmode {
   bis. %57 finis
 }
 
+SanctaTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \dorian \time 4/4 \autoBeamOff \tempoSancta
+    R1*9 %9
+    \mvTr d4\pE^\solo d8 d es d g,4~ %10
+    g8 fis es'4.( d16[ c)] d([ c)] b([ a)]
+    b([ a)] g8 r4 d'8 d d d
+    es16 d d8 b4. a8 c4~
+    c8[ \appoggiatura b16 a8] \appoggiatura g16 f8 es es d r4
+    f8 b d8. f16 \appoggiatura f es8 d16([ c)] \appoggiatura b8 a4 %15
+    f8([ b)] d8. f16 \appoggiatura f es8([ d16 c)] \appoggiatura b8 a4
+    r8 b16([ es)] es([ d)] d([ c)] b4( c)\trill
+    b r r2
+    R1*2 %20
+    b4. g8 \appoggiatura f e!4 e
+    f8 c'16 c c8 a g8. fis16 fis4
+    g d'8 d \appoggiatura d16 cis8.([ h16)] a4
+    d4. f16 e e8. d16 d4
+    f4. e16 f e8. d16 d4 %25
+    cis cis8 e e4 g,8 b~
+    b b4 b8 e,[( f16 g] a[ g f e]
+    f8[ d')] b g f4( e)\trill
+    d r r2
+    R1*26 \bar "|" %55 finis
+  }
+}
+
+SanctaTenoreLyrics = \lyricmode {
+  San -- cta Ma -- ri -- a, o -- %10
+  ra, o -- ra pro
+  no -- bis, san -- cta De -- i
+  ge -- ni -- trix, o -- ra, o --
+  ra pro no -- bis,
+  san -- cta vir -- go vir -- gi -- num, %15
+  o -- ra pro no -- bis,
+  o -- ra pro no --
+  bis.
+
+  Ma -- ter Chri -- sti, %21
+  ma -- ter di -- vi -- nae gra -- ti -- ae,
+  o -- ra pro no -- bis,
+  ma -- ter pu -- ris -- si -- ma,
+  ma -- ter ca -- stis -- si -- ma, %25
+  o -- ra pro no -- bis, o --
+  ra pro no --
+  bis, pro no --
+  bis. %29 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"
