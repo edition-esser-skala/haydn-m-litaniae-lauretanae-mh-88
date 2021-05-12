@@ -125,3 +125,139 @@ SanctaViolinoII = {
     a8 f'4 e8 f f16. g32 \tuplet 3/2 8 { a16[ b c] b a g } \bar "|" %55 finis
   }
 }
+
+VirgoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoVirgo
+    f8\p f f f f f
+    b, b b b b b
+    c c c c c c
+    c(\f f) e4 r
+    f8\p f f f f f %5
+    b, b b b b b
+    c c c c c c
+    c(\f f) e4 r
+    f f f
+    b, a r %10
+    a8\p a a a a a
+    a a a a a a
+    a a a a a a
+    cis'8.(\f d32 e) d4 r
+    g,,8\p g g g g g %15
+    g g g g g g
+    g g g g g g
+    h'8.(\f c32 d) c4 r
+    c4. c8 d4
+    c8 c c c d4 %20
+    c8 g\p e c e16 d e c
+    d8 d d d f16 e f d
+    g8 g g g g16 fis g g,
+    c8 c c c c'16 h c e,
+    f8 f f f f f %25
+    fis fis fis fis fis16 e fis d
+    g8 g g g g g
+    h, h'\f c c c h
+    c e~ e16 f e d c e d c
+    a'8 a~ a16 h a g f g f e %30
+    d8 d~ d16 e d c h d c h
+    e8 e~ e16 f e d c d c h
+    a8 a~ a16 g a h c d e c
+    d8 d~ d16 f e f d f e f
+    d8 d~ d16 f e f d f e d %35
+    c c d c g' c, d c h f g f
+    e c' d c g' c, d c h f g f
+    e c' d c d, c' d c d, h' c h
+    c8 c, c'\p g e c
+    g' g g g g, g' %40
+    c, c'16 h c8 g e c
+    g' g g g g, g'
+    c, c'16 h c8 g c, e'\f
+    f16 g a g f8 f d16 c d b
+    c f a g f8 f d16 c d b %45
+    c8 f, es'-! c-! a-! c-!
+    es,\p es es es es es
+    d d d d es'-!\f c-!
+    a-! fis-! c\p c c c
+    b b g g' b-!\f des-! %50
+    \parOn e!-\parenthesize-! g-! \parOff b-\parenthesize-! e,,\p e e
+    f f f f e e
+    d d d d des des
+    c c e g c16\f e g e
+    \kneeBeam f8 a,,\p a a a a %55
+    b b'\f b b d16 b d b
+    a8 a,\p a' g fis fis
+    g g\f g g b16 g b g
+    f8 f\p f f e e
+    d f\f f f f f %60
+    e4 r r
+    f2.(\p
+    es2 c'8 a)
+    f4 r r
+    R2. %65
+    r4 d c
+    b g'2
+    c,4 c2
+    c4 c'2
+    f,4 r f8( fis) %70
+    g4 r r
+    r b\f a
+    g r r
+    r b\f a
+    g d2\p %75
+    g4 g2
+    c,4 c2
+    f4 f2
+    f4 f2
+    b4 b2 %80
+    b4 g f8 d
+    c4 c'8 b! a g
+    f f f f f f
+    b, b b b b b
+    c c c c c c %85
+    c(\f f) e4 r
+    as8\p as4 g8 f( as)
+    des des4 c8 b( des)
+    c as4 b8 g( e!)
+    f4-! e-! r %90
+    r r g,
+    g as r
+    f'8\fp f f f f f
+    ges ges ges ges ges ges
+    es\fp es es es es es %95
+    es es es es d d
+    ges\fp ges ges ges ges ges
+    as as as as as as
+    f\fp f f f f f
+    f f f f e! e %100
+    as\fp as as as as as
+    as as g g g\f g
+    f c' c c c c
+    d! d b b b b
+    a a a a a a %105
+    b b g g g' g
+    g g g, g f f
+    f f e e e e
+    c' c d d c c
+    h h h h h h %110
+    b b c c b b
+    a a a a a a
+    a a b b fis fis
+    g g g g f f
+    e e e e g g %115
+    g g f f f f
+    f f f f e e
+    f a~ a16 b a g f a g f
+    d'8 d~ d16 e d c b c b a
+    g8 g~ g16 a g f e g f e %120
+    a8 a~ a16 b a g f g f e
+    d8 d~ d16 f e f d f e d
+    g8 g~ g16 b a b g b a b
+    g8 g'~ g16 g, a g g' g, a g
+    f8 f f f e e %125
+    f16 a g f c' f, g f e b c b
+    a f' g f c' f, g f e b c b
+    a f' g f g, f' g f g, e' f e
+    f4 r r\fermata \bar "|." %129 finis
+  }
+}

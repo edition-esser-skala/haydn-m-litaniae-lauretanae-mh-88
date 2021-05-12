@@ -47,3 +47,28 @@ KyrieTimpani = {
     c1\fermata \bar "|." %57 finis
   }
 }
+
+VirgoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoVirgo
+    R2.*43 %43
+    g4\fE r c
+    g r c %45
+    g g r
+    R2.*8 %54
+    g4 r r %55
+    R2.*47 %102
+    g4\fE r g
+    c r r
+    R2.*4 %108
+    g4 r r
+    R2.*8 %117
+    g4 r r
+    c r r
+    R2.*6 %125
+    g4 r r
+    R2.*2
+    R2.\fermata \bar "|." %129 finis
+  }
+}

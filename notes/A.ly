@@ -166,6 +166,170 @@ SanctaAltoLyrics = \lyricmode {
   _ bis. %48 finiss
 }
 
+VirgoAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoVirgo
+    R2.*3
+    \mvTr f4\fE^\tutti e r
+    R2.*3 %7
+    f4 e r
+    b' a g
+    g f r %10
+    R2.*3
+    a4 a r
+    R2.*3 %17
+    g4 g r
+    g4. g8 g4
+    g8 g g g g4 %20
+    g r r
+    R2.*6 %27
+    r8 g g g g4
+    g r r
+    R2.*13 %42
+    r4 r g8 g
+    a4 f8 f f8. f16
+    f8 a f f f4 %45
+    f f2
+    R2.
+    r4 r fis~
+    fis r r
+    r r g~ %50
+    g r r
+    R2.*2
+    r4 r g
+    f r r %55
+    r8 f f f e4
+    e r r
+    r8 d d d c4
+    c r r
+    r8 f f f f4 %60
+    e r r
+    R2.*24 %85
+    \mvTr f4\fE^\tuttiE e r
+    c\p c2
+    b4 f'2
+    e! c4
+    c c r %90
+    b' as g
+    g f r
+    r des2
+    es4. es8 es4
+    r es es %95
+    es2 d!4
+    r es es
+    f2 f4
+    r f f
+    f2 e!4 %100
+    r8 as4 as as8
+    as4 g r
+    r f2\f
+    f8. f16 f4 r
+    a a a %105
+    b g g~
+    g g f
+    f e r
+    c'( d) c
+    h2 h4 %110
+    b c b
+    a2 a4
+    a b fis
+    g2 f4
+    e2 g4~ %115
+    g f8 f f4~
+    f8 f f4( e)
+    f r r
+    R2.
+    g4 e r %120
+    a f r
+    R2.
+    g4 g g
+    g2.
+    f8 f f4( e) %125
+    f r r
+    R2.*2
+    R2.\fermata \bar "|." %129 finis
+  }
+}
+
+VirgoAltoLyrics = \lyricmode {
+  O -- ra, %5
+
+  o -- ra, %7
+  o -- ra pro
+  no -- bis, %10
+
+  o -- ra, %14
+
+  o -- ra, %18
+  vir -- go po --
+  tens, o -- ra pro no -- %20
+  bis,
+
+  o -- ra pro no -- %28
+  bis.
+
+  Cau -- sa %43
+  no -- strae lae -- ti -- ti --
+  ae, o -- ra pro no -- %45
+  bis, vas
+
+  vas __
+
+  vas, __ %50
+
+  o -- %54
+  ra, %55
+  o -- ra pro no --
+  bis,
+  o -- ra pro no --
+  bis,
+  o -- ra pro no -- %60
+  bis.
+
+  O -- ra, %86
+  sa -- lus
+  in -- fir --
+  mo -- rum,
+  o -- ra, %90
+  o -- ra pro
+  no -- bis,
+  re --
+  fu -- gi -- um
+  pec -- ca -- %95
+  to -- rum,
+  con -- so --
+  la -- trix
+  af -- fli --
+  cto -- rum, %100
+  o -- ra pro
+  no -- bis,
+  au --
+  xi -- li -- um
+  Chri -- sti -- a -- %105
+  no -- rum, o --
+  ra pro
+  no -- bis,
+  o -- ra,
+  o -- ra, %110
+  o -- ra pro
+  no -- bis,
+  o -- ra pro
+  no -- _
+  _ _ %115
+  bis, o -- ra __
+  pro no --
+  bis,
+
+  o -- ra, %120
+  o -- ra,
+
+  o -- ra pro
+  no --
+  bis, pro no -- %125
+  bis. %126 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

@@ -56,3 +56,56 @@ KyrieClarinoI = {
     c1\fermata \bar "|." %57 finis
   }
 }
+
+VirgoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoVirgo
+    R2.*3
+    \pa d'4\fE d \pd r
+    R2.*3 %7
+    \pa d4 d \pd r
+    r r g
+    fis g r %10
+    R2.*8 %18
+    \pao d4 r g
+    fis r g %20
+    fis r r
+    R2.*22 %43
+    d4\fE r e
+    d g g %45
+    g d2
+    R2.*7 %53
+    r4 r \pao d
+    d r r %55
+    r e e
+    \pao d r r
+    r e d
+    d r r
+    R2. %60
+    \pao d4 r r
+    R2.*24 %85
+    \pa d4\fE d \pd r
+    R2.*3
+    \pa d4\p d \pd r %90
+    R2.*12 %102
+    g4\fE r g
+    g e r
+    e r e %105
+    e c r
+    r r \pa d
+    d \pd r r
+    g r r
+    R2.*8 %117
+    g4 r r
+    g r r
+    R2.*2 %121
+    g4 g g,
+    e'2 e4
+    d2 fis4
+    g g fis %125
+    g r r
+    R2.*2
+    R2.\fermata \bar "|." %129 finis
+  }
+}

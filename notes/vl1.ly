@@ -126,6 +126,142 @@ SanctaViolinoI = {
   }
 }
 
+VirgoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoVirgo
+    f8\p f f f f f
+    b, b b b b b
+    c c c c c c
+    f(\f a) g4 r
+    f8\p f f f f f %5
+    b, b b b b b
+    c c c c c c
+    f(\f a) g4 r
+    b c d
+    e, f r %10
+    cis8\p cis cis cis d d
+    e e e e f f
+    g g g g f f
+    e'8.(\f f32 g) f4 r
+    h,,8\p h h h c c %15
+    d d d d e e
+    f f f f e e
+    d'8.(\f e32 f) e4 r
+    e4. e8 f4
+    e8 e e e f4 %20
+    e8 g,\p e c e16 d e c
+    d8 d d d f16 e f d
+    g8 g g g g16 fis g g,
+    c8 c c c c'16 h c e,
+    f8 f f f f f %25
+    fis fis fis fis fis16 e fis d
+    g8 g g g g g
+    \kneeBeam h, f''\f e e d4
+    c8 g'~ g16 a g f e g f e
+    c'8 c~ c16 d c h a h a g %30
+    f8 f~ f16 g f e d f e d
+    g8 g~ g16 a g f e f e d
+    c8 c~ c16 h c d e f g e
+    f8 f~ f16 a g a f a g a
+    f8 f~ f16 a g a f a g f %35
+    e c d c g' c, d c h f g f
+    e c' d c g' c, d c h f g f
+    e c' d c d, c' d c d, h' c h
+    c8 c, c'\p g e c
+    g' g g g g, g' %40
+    c, c'16 h c8 g e c
+    g' g g g g, g'
+    c, c'16 h c8 g c, e'\f
+    f16 g a g f8 f d16 c d b
+    c f a g f8 f d16 c d b %45
+    c8 f, es'-! c-! a-! c-!
+    es,\p es es es es es
+    d d d d es'-!\f c-!
+    a-! fis-! c\p c c c
+    b b g g' b-!\f des-! %50
+    \parOn e!-\parenthesize-! g-! \parOff b-\parenthesize-! e,,\p e e
+    f f f f e e
+    d d d d des des
+    c c e g c16\f e g e
+    \kneeBeam f8 a,,\p a a a a %55
+    b d'\f d d b'16 d, b' d,
+    c8 a,\p a' g fis fis
+    g b\f b b g'16 b, g' b,
+    a8 f\p f f e e
+    d a'\f a a as as %60
+    g4 r r
+    f'2.(\p
+    a,2 es'4)
+    d8 c b4 b
+    g c2 %65
+    f,4 f2
+    d4 b'2
+    b4 a f
+    es es'2
+    es4 d d8( c) %70
+    b4 r r
+    r d\f c
+    b r r
+    r d c
+    b b2\p %75
+    b4 b2
+    a4 a2
+    a4 a2
+    d4 d2
+    d4 d2 %80
+    g4 b, a8 f
+    c4 c'8 b! a g
+    f f f f f f
+    b, b b b b b
+    c c c c c c %85
+    f(\f a) g4 r
+    c8\p c4 b8 as( c)
+    f f4 es8 des( f,)
+    e! c'4 des8 b( g)
+    as4-! g-! r %90
+    b c des
+    e,! f r
+    as8\fp as as as as as
+    as as as as as as
+    a\fp a a a a a %95
+    b b b b b b
+    b\fp b b b b b
+    b b b b b b
+    h\fp h h h h h
+    c c c c c c %100
+    f\fp f f f f f
+    f f e! e e\f e
+    f f f f f f
+    f f d! d d d
+    d d d d d d %105
+    d d b b b' b
+    b b b, b a a
+    a a g g g g
+    a a f' f f f
+    f f g g f f %110
+    e e e e e e
+    e e f f cis cis
+    d d d d d d
+    d, d d' d d d
+    d d c c b b %115
+    b b a a a a
+    a g g g g g
+    f c'~ c16 d c b a c b a
+    f'8 f~ f16 g f e d e d c
+    b8 b~ b16 c b a g b a g %120
+    c8 c~ c16 d c b a b a g
+    f8 f~ f16 a g a f a g f
+    b8 b~ b16 d c d b d c d
+    b8 b'~ b16 b, c b b' b, c b
+    a8 a g g g g %125
+    a16 f g f c' f, g f e b c b
+    a f' g f c' f, g f e b c b
+    a f' g f g, f' g f g, e' f e
+    f4 r r\fermata \bar "|." %129 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble
