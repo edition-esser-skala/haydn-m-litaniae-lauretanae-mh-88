@@ -136,12 +136,90 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "3"
+  %     title = "V I R G O   P R U D E N T I S S I M A"
+  %   }
+  %   \tocSection "3" "Virgo prudentissima"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "clno 1"
+  %           % \transpose c b,
+  %           \partCombine \VirgoClarinoI \VirgoClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         % \transpose c b,
+  %         \VirgoTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VirgoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VirgoViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 1"
+  %           \new Voice = "Soprano" { \dynamicUp \VirgoSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \VirgoSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoII" { \dynamicUp \VirgoSopranoIINotes }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \VirgoSopranoIILyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \VirgoAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \VirgoAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \VirgoTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \VirgoTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \VirgoBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \VirgoBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \VirgoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \VirgoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "3"
-      title = "V I R G O   P R U D E N T I S S I M A"
+      number = "4"
+      title = "R E G I N A   A N G E L O R U M"
     }
-    \tocSection "3" "Virgo prudentissima"
+    \tocSection "4" "Regina angelorum"
     \score {
       <<
         \new StaffGroup <<
@@ -149,69 +227,69 @@
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "clno 1"
             % \transpose c b,
-            \partCombine \VirgoClarinoI \VirgoClarinoII
+            \partCombine \ReginaClarinoI \ReginaClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
           % \transpose c b,
-          \VirgoTimpani
+          \ReginaTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VirgoViolinoI
+              \ReginaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VirgoViolinoII
+              \ReginaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S 1"
-            \new Voice = "Soprano" { \dynamicUp \VirgoSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \ReginaSopranoNotes }
           }
-          \new Lyrics \lyricsto Soprano \VirgoSopranoLyrics
+          \new Lyrics \lyricsto Soprano \ReginaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoII" { \dynamicUp \VirgoSopranoIINotes }
+            \new Voice = "SopranoII" { \dynamicUp \ReginaSopranoIINotes }
           }
-          \new Lyrics \lyricsto SopranoII \VirgoSopranoIILyrics
+          \new Lyrics \lyricsto SopranoII \ReginaSopranoIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \VirgoAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \ReginaAltoNotes }
           }
-          \new Lyrics \lyricsto Alto \VirgoAltoLyrics
+          \new Lyrics \lyricsto Alto \ReginaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \VirgoTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \ReginaTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \VirgoTenoreLyrics
+          \new Lyrics \lyricsto Tenore \ReginaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \VirgoBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \ReginaBassoNotes }
           }
-          \new Lyrics \lyricsto Basso \VirgoBassoLyrics
+          \new Lyrics \lyricsto Basso \ReginaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \VirgoOrgano
+            \ReginaOrgano
           }
         >>
-        \new FiguredBass { \VirgoBassFigures }
+        \new FiguredBass { \ReginaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

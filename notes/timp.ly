@@ -72,3 +72,38 @@ VirgoTimpani = {
     R2.\fermata \bar "|." %129 finis
   }
 }
+
+ReginaTimpani = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoRegina
+    R2*38 %38
+    g4\fE r
+    c r %40
+    R2*3
+    g4 r
+    R2*22 %66
+    c4\fE r
+    g r
+    c r
+    R2 %70
+    g4 r
+    r r8 g
+    c4 r
+    R2*12 %85
+    r4 r8 c\fE
+    g4 g8 g16 g
+    c4 r
+    g r
+    c r %90
+    c r
+    c r
+    R2
+    g4 r8 g
+    c4 r %95
+    R2
+    r4 g
+    c r8 g
+    c4 r\fermata \bar "|." %99 finis
+  }
+}

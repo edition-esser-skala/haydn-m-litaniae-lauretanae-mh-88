@@ -493,6 +493,214 @@ VirgoBassFigures = \figuremode {
   r2. %129 finis
 }
 
+ReginaOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key b \major \time 2/4 \tempoRegina
+    r8 \mvTr b\pE-\solo d b
+    r f' a f
+    r b d b
+    r es, g e
+    f f, r f' %5
+    g g es! f
+    b,4 b8 c
+    d d d d
+    es es es es
+    f f a, b %10
+    f' es d c
+    d d d d
+    es es es es
+    f f a, b
+    f'4 r8 c %15
+    f f, a f
+    r c' e c
+    r f a f
+    r b, d h
+    c c, r c' %20
+    d d b! c
+    f,4 f'8 g
+    a a a a
+    b b b b
+    c c e, f %25
+    c' b a g
+    a a a a
+    b b b b
+    b b b b
+    a a a a %30
+    a a a a
+    g g f f
+    e e e e
+    f, f g g
+    a a d d %35
+    b b c c
+    f f,\f a f
+    r c' e c
+    f g a a,
+    b c d c %40
+    b h c d
+    e g f e
+    f a, b c
+    f,4 r8 f'\p
+    f,4 r8 f' %45
+    f,4 r8 f'
+    fis4 r8 fis
+    g g, es' cis
+    d c b a
+    g g b g %50
+    r d' fis d
+    r g g g
+    r g g g
+    r c, c c
+    r c c c %55
+    r f f f
+    r f f f
+    r b, b b
+    r b b b
+    r es es es %60
+    r c c c
+    r f f f
+    a, a' b b,
+    f'4 r8 f
+    a, a' b b, %65
+    f'\fE es d c
+    b-\tutti b d b
+    r f' a f
+    r b d b
+    r es, g e %70
+    f f, r f'
+    g g es! f
+    b,4 b8 c
+    \mvTr d\pE-\solo d d d
+    es es es es %75
+    f f a, b
+    f' es d c
+    \mvTr d\fE-\tutti d d d
+    es es es es
+    f f f f %80
+    g g g g
+    a a a a
+    b b a a
+    g g f f
+    es es d d %85
+    c c c b
+    a b f' f,
+    b b d-\soloE b
+    r f' a f
+    r b d b %90
+    r b, c d
+    r es g es
+    r c d e
+    f g a a
+    b c d d, %95
+    es f g f
+    es e f a
+    b d, es f
+    b,4 r\fermata \bar "|." %99 finis
+  }
+}
+
+ReginaBassFigures = \figuremode {
+  r2
+  r8 <[7]>4.
+  r2
+  r8 <6 5>4 <\t \t>8
+  <7>4 <6 4>8 <[5] 3> %5
+  r4 <6 5>
+  r4. <6>8
+  q2
+  <5>8 <6>4.
+  r4 <[6 5]> %10
+  <6 4>8 q <6> q
+  <[6]>2
+  <5>8 <6>4.
+  r4 <[6 5]>
+  <6 4>8 <[5] 3>4 <_!>8 %15
+  r2
+  r8 <7 [_!]>4.
+  r2
+  r8 <6 5>4 <\t \t>8
+  <7 [_!]>4 <6 4>8 <[5] _!> %20
+  r4 <6 5>8 <_!>
+  r4. <6!>8
+  <[6]>2
+  <5>8 <6>4.
+  <_!>4 <[6 5]> %25
+  <6 4>8 <6 4!> <6> <6!>
+  \bo <[6 \l]>2
+  <5 2+>8 <\t 3>4.
+  r2
+  <6 2!>8 <\t 3>4. %30
+  r2
+  r4 <\t>
+  <6 5>2
+  r
+  <6> %35
+  <6 5>4 \bc <[_! \l]>
+  r2
+  r8 <7 [_!]>4.
+  r4 <6>8 <5!>
+  r4 <6>8 <6 _!> %40
+  <6> <5> <_!> <6!>
+  <[6]>2
+  r8 \bo q \bc q4
+  r2
+  <[5] 3>8 <6 4>4. %45
+  <6 4>8 <7 [5]>4.
+  \bo <[\t \t]>4 <6 4>8 \bc <[5 3]>
+  <9 4>4 <5>8 <\t>
+  <_+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  r2 %50
+  r8 <[7 _+]>4.
+  r2
+  r8 <[7] _!>4.
+  r2
+  r8 <7 _!>4. %55
+  r2
+  r8 <7>4.
+  r2
+  r8 <7->4.
+  r2 %60
+  r8 <7 _!>4.
+  r2
+  <6 5->
+  r
+  <[6 5]> %65
+  r
+  r
+  r8 <7>4.
+  r2
+  r8 <6 5>4 <\t \t>8 %70
+  <7>4 <6 4>8 <[5] 3>
+  r4 <6 5>
+  r4. <6>8
+  q2
+  <5>8 <6>4. %75
+  r4 <[6 5]>
+  <6 4>8 q <6> q
+  <6>2
+  <9 3>8 <\t 6>4.
+  <8 3>8 <\t 6>4. %80
+  <7 3>8 <\t 6>4.
+  <6>2
+  r4 <[6]>
+  <7>8 <6> <7> <6>
+  <7> <6> <7> <6> %85
+  <7> <6>4 <6 4>8
+  <6 5>4 <4>8 <3>
+  r2
+  r8 <7>4.
+  r2 %90
+  r8 <7->4.
+  r2
+  r8 <7 [_!]>4.
+  r4 <6>8 <5->
+  r <[6]> <6> <5> %95
+  r4 <6>8 q
+  q <5>4 <[6]>8
+  r \bo q \bc q4
+  r2 %99 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

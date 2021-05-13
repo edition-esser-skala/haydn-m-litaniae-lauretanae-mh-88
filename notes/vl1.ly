@@ -262,6 +262,112 @@ VirgoViolinoI = {
   }
 }
 
+ReginaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoRegina
+    f'4\p r
+    es r
+    d r
+    g( b,)
+    a8 es' d c %5
+    b4 c\trill
+    b8 b16\f f d b a c
+    b8 b'\p b b
+    b c c c
+    c es es d %10
+    \appoggiatura d c4 b8 f'16 a,
+    b8 b b b
+    b c c c
+    c4 es8 d
+    d c c16(\f a') g b, %15
+    a4 r
+    b\p r
+    a r
+    d( f,)
+    e8 b' a g %20
+    f4 g\trill
+    a8 f'16\f c a f e g
+    f8 f\p f f
+    f g g g
+    g b b a %25
+    \appoggiatura a g4 f8 c'16 e,
+    f8 c' c c
+    cis( d) r d
+    d d d d
+    h( c) r c %30
+    c c c c
+    b b b b
+    b b b b
+    a16 c b a b c d e
+    f4 r %35
+    R2
+    c'2\f
+    b
+    a16 b g a f g e f
+    d e c d b c a b %40
+    g a f g e f d e
+    c d b c a b g b
+    a c f a, g8 e'
+    f4 r8 c'\p
+    es!(( d) r d %45
+    f( es) r es
+    es( c) r4
+    R2
+    d,16\f es c d b c a b
+    g4 r8 d''\p %50
+    c( a') r c,
+    b( d) r b
+    \once \slurDashed h( g') r d
+    es g r es
+    e g r b, %55
+    a c r a
+    a c r es
+    d f r d
+    d f r as,
+    g b r es %60
+    e g r b,
+    a! c r c
+    es!4 d\trill
+    c r
+    R2 %65
+    f,16\f g es f d es c d
+    b8 f'' r f
+    es c r es
+    d b' r b
+    g4 b, %70
+    a8 es' d c
+    b4 c\trill
+    d8 b16 f d b a c
+    b8 b'\p b b
+    b c c c %75
+    c es es d
+    \appoggiatura d c4 b8 f'16\f a,
+    b f' f f f f f f
+    g, f' f f f f f f
+    a, f' f f f f f f %80
+    b, f' f f f f f f
+    c f f f f f f f
+    d f f f f f f f
+    f( d) es-! es-! es( cis) d-! d-!
+    d h c c c a b b %85
+    b g a a es' es es es
+    es c d b c,8 a'
+    \appoggiatura b16 f'2
+    es
+    d %90
+    as'
+    g
+    b
+    a!16 b g a f g es f
+    d es c d b c a b %95
+    g a f g es f d es
+    c d b c a g' f es
+    d f b d, c8 a'
+    b,4 r\fermata \bar "|." %99 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

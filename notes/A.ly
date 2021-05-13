@@ -330,6 +330,139 @@ VirgoAltoLyrics = \lyricmode {
   bis. %126 finis
 }
 
+ReginaAltoNotes = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoRegina
+    R2*2
+    r4 r8 \mvTr f\pE^\solo
+    g g g g
+    f4 f %5
+    r8 d g f
+    f f r4
+    R2*6 %13
+    r8 f f f
+    f f r4 %15
+    R2*2
+    r4 r8 f
+    f f f f
+    e([ g)] f e %20
+    f4. e8
+    f16([ g)] a8 r4
+    c,8( f4 e8)
+    d( g4) f8
+    e b'4 a8 %25
+    \appoggiatura a g4 f8 r
+    r4 f
+    f r
+    r f
+    f r %30
+    R2
+    g~
+    g
+    f4 r
+    r8 f f f %35
+    f4( e)
+    f r
+    R2*14 %51
+    g2
+    f
+    es8 c es g
+    \appoggiatura f e4. e8 %55
+    f16([ g a g)] f4
+    R2*3
+    \once \tieDashed b2~ %60
+    b
+    a4 r8 f
+    f2
+    f4 r
+    R2*2 %66
+    \mvTr f2\fE^\tutti
+    a
+    b4 r8 f
+    g4 g8 g %70
+    f4 f
+    r8 d g f
+    f8. f16 f4
+    R2*5 %78
+    g2
+    f4 r %80
+    b2
+    f4 c
+    b c
+    d8 es4 f8
+    g[ c,] d4 %85
+    es r8 g
+    f f f4
+    f r
+    R2*10 %98
+    R2\fermata \bar "|." %99 finis
+  }
+}
+
+ReginaAltoLyrics = \lyricmode {
+  Re -- %3
+  gi -- na An -- ge --
+  lo -- rum, %5
+  o -- ra pro
+  no -- bis,
+
+  o -- ra pro %14
+  no -- bis, %15
+
+  re -- %18
+  gi -- na Pro -- phe --
+  ta -- rum, o -- %20
+  ra pro
+  no -- bis,
+  re --
+  gi -- na
+  A -- po -- sto -- %25
+  lo -- rum,
+  o --
+  ra,
+  o --
+  ra, %30
+
+  o --
+
+  ra,
+  o -- ra pro %35
+  no --
+  bis.
+
+  Re -- %52
+  gi --
+  na, re -- gi -- na
+  Con -- fes --
+  so -- rum,
+
+  \xE o -- %60
+
+  ra \x pro
+  no --
+  bis.
+
+  Re -- %67
+  gi --
+  na, re --
+  gi -- na San -- %70
+  cto -- rum,
+  San -- cto -- rum
+  o -- mni -- um,
+
+  o -- %79
+  ra, %80
+  o --
+  ra, o --
+  ra pro
+  no -- _ _
+  _ _ %85
+  bis, o --
+  ra pro no --
+  bis. %88 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

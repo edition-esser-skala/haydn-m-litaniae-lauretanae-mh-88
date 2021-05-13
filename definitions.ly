@@ -689,6 +689,7 @@ tocLabelLong = #(define-music-function
 tempoKyrie = \tempoMarkup "Allegro molto"
 tempoSancta = \tempoMarkup "Andante"
 tempoVirgo = \tempoMarkup "Allegretto"
+tempoRegina = \tempoMarkup "Allegro"
 
 
 accomp =  \markup \remark  "accomp."

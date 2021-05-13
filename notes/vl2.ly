@@ -261,3 +261,109 @@ VirgoViolinoII = {
     f4 r r\fermata \bar "|." %129 finis
   }
 }
+
+ReginaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoRegina
+    d'4\p r
+    c r
+    b r
+    b( g)
+    f8 c' b a %5
+    b16 d, b'4 a8
+    b b16\f f d b a c
+    b8 f'\p f f
+    g g g g
+    a c c b %10
+    \appoggiatura b a4 b8 es,
+    f f f f
+    g g g g
+    a4 c8 b
+    b a r e'\f %15
+    f4 r
+    g,\p r
+    f r
+    f( d)
+    g,8 g' f e %20
+    f16 a, f'4 e8
+    f f'16\f c a f e g
+    f8 c\p c c
+    d d d d
+    e g g f %25
+    \appoggiatura f e4 f8 b,
+    c f f f
+    f4 r8 f
+    f f f f
+    f4 r8 f %30
+    f f f f
+    d d d d
+    g g g g
+    f f f f
+    f4 r %35
+    R2
+    a'\f
+    g
+    f4~ f16 g e f
+    d e c d b c a b %40
+    g a f g e f d e
+    c d b c a b g b
+    a c f a, g8 e'
+    f4 r8 a\p
+    c( b) r b %45
+    d( c) r c
+    c( a) r4
+    R2
+    d,16\f es c d b c a b
+    g4 r8 b'\p %50
+    a( c) r a
+    g( b) r g
+    g( d') r h
+    c es r g,
+    g b r g %55
+    f a r f
+    f a r c
+    b d r f,
+    f as r f
+    es g r g %60
+    g b r g
+    f a! r a
+    c4 b\trill
+    a r
+    R2 %65
+    f16\f g es f d es c d
+    b8 d' r d
+    c a r c
+    b d, r b'
+    b4 g %70
+    f8 c' b a
+    b16 d, b'4 a8
+    b b16 f d b a c
+    b8 f'\p f f
+    g g g g %75
+    a c c b
+    \appoggiatura b a4 b8 es,\f
+    f f'16 f f f f f
+    g, f' f f f f f f
+    a, f' f f f f f f %80
+    b, f' f f f f f f
+    c f f f f f f f
+    d f f f f f f f
+    f( d) es-! es-! es( cis) d-! d-!
+    d h c c c a b b %85
+    b g a a es' es es es
+    es c d b c,8 a'
+    \appoggiatura b16 d2
+    c
+    b %90
+    f'
+    es
+    g
+    f4~ f16 g es f
+    d es c d b c a b %95
+    g a f g es f d es
+    c d b c a g' f es
+    d f b d, c8 a'
+    b,4 r\fermata \bar "|." %99 finis
+  }
+}

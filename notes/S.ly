@@ -330,6 +330,142 @@ VirgoSopranoLyrics = \lyricmode {
   bis. %126 finis
 }
 
+ReginaSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoRegina
+    \mvTr f'2\pE^\solo
+    es
+    d4 r8 d
+    c c c c
+    es4 d8 c %5
+    b4 c\trill
+    d16([ c)] b8 r4
+    R2*4 %11
+    f8 b4 a8
+    g c4 b8
+    a[ es'] es d
+    d c r4 %15
+    R2*12 %27
+    f8([ d)] b d
+    f,2\trill
+    f'8[ c a c] %30
+    f,2\trill
+    b16[ d c d] b[ d c d]
+    b[ d c d] b[ d c b]
+    a[ c b a] b[ c d e]
+    f[ c d c] b[ a g f] %35
+    g2\trill
+    f4 r
+    R2*6 %43
+    r8 c' c4~
+    c8 d d4~ %45
+    d8 es! es4
+    r8 es d c
+    c4( b)\trill
+    a r
+    R2*6 %55
+    f'2
+    es
+    d8 b d f
+    d4. d8
+    es b es g %60
+    e4. e8
+    f c c c
+    es!4( d)\trill
+    c r8 a
+    c4( b)\trill %65
+    a r
+    \mvTr f'2\fE^\tutti
+    es
+    d4 r8 d
+    \appoggiatura d c4 c8 c %70
+    es4 d8 c
+    b4 c
+    d8. c16 b4
+    \mvTr f8\pE^\solo b4 a8
+    g c4 b8 %75
+    a[ es'] es d
+    \appoggiatura d c4 b8 r
+    \mvTr f'2~\fE^\tutti
+    f~
+    f~ %80
+    f~
+    f~
+    f~
+    f8 es4 d8~
+    d c4 b8~ %85
+    b[ a] es'4~
+    es8 d c4
+    b r
+    R2*10 %98
+    R2\fermata \bar "|." %99 finis
+  }
+}
+
+ReginaSopranoLyrics = \lyricmode {
+  Re -- %1
+  gi --
+  na, re --
+  gi -- na An -- ge --
+  lo -- rum, o -- %5
+  ra pro
+  no -- bis,
+
+  o -- _ _ %12
+  _ _ _
+  _ ra pro
+  no -- bis, %15
+
+  o -- ra pro %28
+  no --
+  _ %30
+  _
+  _ _
+  _ _
+  _ _
+  _ _ %35
+  _
+  bis.
+
+  Re -- gi -- %44
+  na Mar -- %45
+  ty -- rum,
+  o -- ra pro
+  no --
+  bis,
+
+  re -- %56
+  gi --
+  na, re -- gi -- na
+  Vir -- gi --
+  num, re -- gi -- na %60
+  Vir -- gi --
+  num, o -- ra pro
+  no --
+  bis, pro
+  no -- %65
+  bis.
+  Re --
+  gi --
+  na, re --
+  gi -- na San -- %70
+  cto -- rum, San --
+  cto -- rum
+  o -- mni -- um,
+  o -- _ _
+  _ _ _ %75
+  _ ra pro
+  no -- bis,
+  o --
+
+  _ _ %84
+  _ _ %85
+  ra __
+  pro no --
+  bis. %88 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

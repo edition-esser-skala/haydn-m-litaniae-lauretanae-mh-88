@@ -314,7 +314,7 @@ VirgoTenoreLyrics = \lyricmode {
   o -- ra pro
   no -- %65
   bis,
-  
+
   tur -- ris e --
   bur -- ne -- a,
   o -- ra, %70
@@ -372,6 +372,145 @@ VirgoTenoreLyrics = \lyricmode {
   no --
   bis, pro no -- %125
   bis. %126 finis
+}
+
+ReginaTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoRegina
+    R2*7 %7
+    \mvTr f,8(\pE^\solo b4 a8)
+    g( c4) b8
+    a([ es')] es d %10
+    \appoggiatura d c4 b8 r
+    R2*2
+    r8 c c b
+    b a r4 %15
+    c2
+    b
+    a4 r8 a
+    \appoggiatura a16 g8 g g g
+    b4 a8 g %20
+    f4 g\trill
+    a16([ g)] f8 r4
+    R2*4 %26
+    c'8( f4 e8
+    cis[ d)] d4
+    d8 f4 d8
+    h([ c)] c4 %30
+    c8( f4) f,8
+    d'2(
+    c)
+    c4 r
+    r r8 a %35
+    d d c4
+    c r
+    R2*12 %49
+    d2 %50
+    c
+    b8 g b d
+    \appoggiatura c h4. h8
+    c16([ d es d)] c4
+    r8 c c c %55
+    c4 f,
+    r8 es'^\critnote es es
+    d2(
+    f)
+    b,4 r %60
+    c2~
+    c4 a8 a
+    c4( b)\trill
+    a8 c c c
+    es4( d)\trill %65
+    c r
+    \mvTr d2\fE^\tutti
+    c
+    b4 r8 b
+    b4 b8 b %70
+    a([ c)] b a
+    b4. a8
+    b8. c16 d4
+    R2*4 %77
+    f,8 b4 a8
+    g c4 b8
+    a d4 c8 %80
+    b es4 d8
+    c f4 es8
+    d16[ es d es] c[ d c d]
+    b4 a
+    g f %85
+    es a8 b
+    c( b4 a8)
+    b4 r
+    R2*10 %98
+    R2\fermata \bar "|." %99 finis
+  }
+}
+
+ReginaTenoreLyrics = \lyricmode {
+  Re -- %8
+  gi -- na
+  Pa -- tri -- ar -- %10
+  cha -- rum,
+
+  o -- ra pro %14
+  no -- bis, %15
+  re --
+  gi --
+  na, re --
+  gi -- na Pro -- phe --
+  ta -- rum, o -- %20
+  ra pro
+  no -- bis,
+
+  o -- %27
+  ra,
+  o -- ra pro
+  no -- bis, %30
+  o -- ra,
+  o --
+
+  ra,
+  o -- %35
+  ra pro no --
+  bis.
+
+  Re -- %50
+  gi --
+  na, re -- gi -- na
+  Con -- fes --
+  so -- rum,
+  o -- ra pro %55
+  no -- bis,
+  o -- ra pro
+  no --
+
+  bis, %60
+  o --
+  ra pro
+  no --
+  bis, o -- ra pro
+  no -- %65
+  bis.
+  Re --
+  gi --
+  na, re --
+  gi -- na San -- %70
+  cto -- rum, San --
+  cto -- rum
+  o -- mni -- um,
+
+  o -- _ _ %78
+  _ _ _
+  _ _ _ %80
+  _ _ _
+  _ _ _
+  _ _
+  _ _
+  _ _ %85
+  _ ra pro
+  no --
+  bis. %88 finis
 }
 
 % TenoreNotes = {

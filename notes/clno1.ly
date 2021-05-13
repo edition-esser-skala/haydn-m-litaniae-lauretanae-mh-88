@@ -109,3 +109,40 @@ VirgoClarinoI = {
     R2.\fermata \bar "|." %129 finis
   }
 }
+
+ReginaClarinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoRegina
+    R2*38 %38
+    g''4\fE r
+    g r %40
+    R2
+    \pao d4 r
+    r r8 \pao d
+    d4 r
+    R2*22 %66
+    c4\fE r8 c
+    d4. f8
+    e c16 c c4
+    R2 %70
+    d4 r
+    r r8 d
+    c4 r
+    R2*12 %85
+    r4 r8 \pao c\fE
+    f e d d16 d
+    c4 r
+    d4. f8
+    e4 r %90
+    \pao c r
+    c r
+    \pao d r
+    d r8 f
+    e4 r %95
+    R2
+    r4 d
+    c8 e r d
+    c4 r\fermata \bar "|." %99 finis
+  }
+}
