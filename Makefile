@@ -1,6 +1,6 @@
 # change the following variables according to the current project
-project = HaydnM_Litaniae_lauretanae_MH88
-notes = clno1 clno2 timp vl1 vl2 S A T B org
+project = HaydnM_Litaniae_lauretanae_MH_88
+notes = clno1 clno2 timp vl1 vl2 S S2 A T B org
 scores = full_score ottoni vl1 vl2 coro b org
 
 # general definitions
