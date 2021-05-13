@@ -68,28 +68,97 @@
   \bookpart {
     \header {
       number = "1"
-      title = "F I R S T"
+      title = "K Y R I E"
     }
     \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Clarino" "in C" }
+            \set GrandStaff.instrumentName = \markup \center-column { "Clarino" "in B" }
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxClarinoI
+              \KyrieClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxClarinoII
+              \KyrieClarinoII
             }
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
-          \xxxTimpani
+          \set Staff.instrumentName = \markup \center-column { "Timpani" "in B–F" }
+          \KyrieTimpani
         }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "3"
+      title = "V I R G O   P R U D E N T I S S I M A"
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VirgoClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VirgoClarinoII
+            }
+          >>
+        >>
+        \new Staff { \VirgoTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "4"
+      title = "R E G I N A   A N G E L O R U M"
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \ReginaClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \ReginaClarinoII
+            }
+          >>
+        >>
+        \new Staff { \ReginaTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "5"
+      title = "A G N U S   D E I"
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \AgnusClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \AgnusClarinoII
+            }
+          >>
+        >>
+        \new Staff { \AgnusTimpani }
       >>
     }
   }

@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "vl 2"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
       >>
     }
@@ -65,7 +65,7 @@
     }
     \score {
       <<
-        \new Staff { \SanctaOrgano }
+        \new Staff { \SanctaViolinoII }
       >>
     }
   }
@@ -76,7 +76,7 @@
     }
     \score {
       <<
-        \new Staff { \VirgoOrgano }
+        \new Staff { \VirgoViolinoII }
       >>
     }
   }
@@ -87,7 +87,7 @@
     }
     \score {
       <<
-        \new Staff { \ReginaOrgano }
+        \new Staff { \ReginaViolinoII }
       >>
     }
   }
@@ -98,7 +98,7 @@
     }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
