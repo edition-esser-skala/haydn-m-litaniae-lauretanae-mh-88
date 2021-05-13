@@ -513,13 +513,54 @@ ReginaTenoreLyrics = \lyricmode {
   bis. %88 finis
 }
 
-% TenoreNotes = {
-%   \relative c' {
-%     \clef "treble_8"
-%
-%   }
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*39 %39
+    r4 \mvTr d\fE^\tutti f %40
+    es g, b
+    a! a c
+    b8([ a16 b] c4) b
+    b a r
+    R2.*4 %48
+    c2.\f
+    c %50
+    b~
+    b8 es d4( c)
+    b r r
+    r d d
+    d2. %55
+    d
+    c
+    c
+    c4( b) c
+    c2 b4~ %60
+    b a8[ g] a4
+    b2.
+    R\fermata \bar "|." %63 FINIS
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus %40
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta
+  mun -- di:
+
+  Mi --
+  se -- %50
+  re --
+  re no --
+  bis,
+  mi -- se --
+  re -- %55
+  re,
+  mi --
+  se --
+  re -- re
+  no -- _ %60
+  _ _
+  bis. %62 FINIS
+}

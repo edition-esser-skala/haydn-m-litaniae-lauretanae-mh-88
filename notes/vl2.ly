@@ -367,3 +367,73 @@ ReginaViolinoII = {
     b,4 r\fermata \bar "|." %99 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoAgnus
+    g4\fE b\p b
+    b b g
+    b as c
+    c c f
+    f d c %5
+    b b g'
+    c, b f'
+    f f8 f f f
+    e des des des des des
+    c4 des c %10
+    b c d
+    c8 f f4 e
+    f8 as\f as( f') f4
+    r8 b, b( g') g4
+    r16 as( g f) e( f g f) f4~ %15
+    f16 as( g f) e( f g f) f4~
+    f16 des( c b) \appoggiatura b as8 b16( g) as( f g e)
+    f8 as\p \once \slurDashed as( c) c4
+    r8 h, h( as') as4
+    r8 g g( c) c4 %20
+    r8 c c c, c c
+    d d d( h') h4
+    r8 b b( g') g4
+    r8 g,, g( g') g4
+    r8 g g( c) a4 %25
+    d, es f!
+    g g g
+    g g fis
+    g8 b\f b( g') g4
+    r8 c, c( a') a4 %30
+    r16 b( a g) fis( g a g) g4~
+    g16 \slurDashed b( a g) fis( g a g) \slurSolid g4~
+    g16 es( d c) \appoggiatura c b8 c16( a) b( g) a( fis)
+    g8 b,\p \once \slurDashed b( d) es4
+    r8 c \once \slurDashed c( es) es4 %35
+    r8 b b( f') f4
+    r8 c c c c c
+    c4 a-\tenuto g
+    a b\f c
+    d r8 d f( as) %40
+    g es r e g( b)
+    a f r fis \once \slurDashed a( c)
+    b g c4 b
+    b a r
+    f'16(\pocoP des' c b) a( b c b) b4~ %45
+    b16 \slurDashed des( c b) a( b c b) b4~
+    b16 des( c b) a( b c b) \slurSolid b8 b,
+    b4\trill a r
+    c2.\f
+    ges2 f8 c' %50
+    b2.
+    g8 es d4 c
+    b8 b' b( b') b4
+    r8 b,\p b( b') b4
+    r8 b,\f b( b') b4 %55
+    r8 b,\p b( b') b4
+    r8 c,,\f c( c') c( a)
+    a( f) f( c) c( a)
+    a f' f d' c b
+    a4 c b~ %60
+    b a8 g a4
+    b8 f\p f d d b
+    b2.\fermata \bar "|." %63 FINIS
+  }
+}

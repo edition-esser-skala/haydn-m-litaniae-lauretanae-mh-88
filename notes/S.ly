@@ -466,13 +466,62 @@ ReginaSopranoLyrics = \lyricmode {
   bis. %88 finis
 }
 
-% SopranoNotes = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*38 %38
+    r4 \mvTr f'4.\fE^\tutti a,8
+    \appoggiatura c16 b8([ a16 b)] b4. b8 %40
+    b([ c)] c4. c8
+    c([ d)] d4. d8
+    d([ c16 d] es4) d
+    d c r
+    des2.\p %45
+    des
+    des2 des4
+    des c r
+    es2.\f
+    es %50
+    d!~
+    d8 c b4( a)
+    b f' d
+    b2.~
+    b4 d b %55
+    g2 g4
+    es'2.
+    es
+    es4( d) c8([ b)]
+    a[ f es' c d b] %60
+    c2.\trill
+    b
+    R\fermata \bar "|." %63 FINIS
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %39
+  De -- i, qui %40
+  tol -- lis pec --
+  ca -- ta, pec --
+  ca -- ta
+  mun -- di:
+  Mi -- %45
+  se --
+  re -- re
+  no -- bis,
+  mi --
+  se -- %50
+  re --
+  re no --
+  bis, mi -- se --
+  re --
+  _ re %55
+  no -- bis,
+  mi --
+  se --
+  re -- re
+  no -- %60
+  _
+  bis. %62 FINIS
+}

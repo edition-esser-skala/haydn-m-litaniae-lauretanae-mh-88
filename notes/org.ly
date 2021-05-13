@@ -701,13 +701,138 @@ ReginaBassFigures = \figuremode {
   r2 %99 finis
 }
 
-% Organo = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \tempoAgnus
+    \mvTr es4\fE-\solo g\pE es
+    as g es
+    g, as as
+    b as a
+    b b c %5
+    d es es
+    es d b
+    a! b b
+    b b b
+    as b c %10
+    des c h
+    c c c
+    f, f'\f f
+    f e e
+    f( g as) %15
+    b( c des)
+    b c c,
+    f, f'\p f
+    f f f
+    es! es c %20
+    as as as
+    g g g
+    g g' f
+    es es d
+    c c c %25
+    b! c d
+    es d cis
+    d d d
+    g, g'\f g
+    g fis fis %30
+    g,( a b)
+    c( d es)
+    c d d,
+    g g\p g
+    a a a %35
+    b b b
+    es es e
+    f f, r
+    R2.
+    r4 \mvTr as'\fE-\tutti d, %40
+    es b' e,
+    f c' fis,
+    g es! e
+    f f, r
+    b(\p c des) %45
+    es( f ges)
+    e e e
+    f f, r
+    r8 ges\fE ges( ges') ges4
+    r8 a, a( a') a4 %50
+    r8 b, \once \slurDashed b( b') b4
+    es, f f,
+    b r8 b b( b')
+    b4 r r
+    r r8 g, g( g') %55
+    g4 r r
+    r8 c, c( c') c( a)
+    a( f) f( c) c( a)
+    a4 b e
+    f2. %60
+    f,
+    b4 b\p b
+    b2.\fermata \bar "|." %63 FINIS
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2.
+  <2>4 <[6]>2
+  <5-> <6>4
+  <4! 2> <6> <[\t]>
+  <4-> <3> <6!> %5
+  <5->2.
+  <4! 2>4 <[6]>2
+  <[6 5]>2.
+  <4! _->
+  <[6]>4 <9 _->8 <8 \t> <7> <6!> %10
+  <5! 3> \bassFigureExtendersOn <6 3> <7 3> <6- 3> <7 3> <6 3> \bassFigureExtendersOff
+  <6 4>4 <5 \t> <\t _!>
+  <_->2.
+  \bo <[6- 4] 2>4 \bc <[\t \t] \t>2
+  <_->2. \bassFigureExtendersOn %15
+  q2 q4 \bassFigureExtendersOff
+  <_->4 <6- 4> <[5] _!>
+  <_->2.
+  <4! _->
+  <6>2. %20
+  <5>2 <6>4
+  <_!>2.
+  <_->2 <\t>4
+  <5>2 <\t>4
+  <\t>2 <4+ 3>4 %25
+  <5+>8 <6> <5> <6-> <5-> <6!>
+  <5!> <6> <7> <6-> <7 _!> <6 \t>
+  <6 4>4 \bo <[5] \t> \bc <[\t] _+>
+  r2.
+  <2>4 <[\t]>2 %30
+  <3>2. \bassFigureExtendersOn
+  q2 q4 \bassFigureExtendersOff
+  r <6 4>8 <7 5> <6 4> <[5] _+>
+  r2 <6>4
+  <6>2 <7>4 %35
+  <4> <3>2
+  <6> <5>4
+  r2.
+  r
+  r4 <2> <\t> %40
+  r <4! 2> <[\t \t]>
+  r <4+ 2> <[\t \t]>
+  r <6> <7>
+  <6 4> <[5] 3>2
+  <_->2. \bassFigureExtendersOn %45
+  q2 q4 \bassFigureExtendersOff
+  <7->2.
+  <6- 4>4 <[5] 3>2
+  r8 <6 4 2!>4. \bassFigureExtendersOn q4
+  r8 <7->4 q8 \bassFigureExtendersOff <6>4 %50
+  r8 <_!> r2
+  <7>8 <6> <6 4>4 <[5] 3>
+  r2.
+  r
+  r %55
+  r
+  r
+  <6 5>2. \bassFigureExtendersOn
+  q4 \bassFigureExtendersOff r <6>8 <5>
+  <[5 3]>2 <6 4>4 %60
+  <5 4> <\t 3>2
+  r2.
+  r %63 FINIS
+}

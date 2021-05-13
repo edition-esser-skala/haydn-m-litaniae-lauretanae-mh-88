@@ -368,9 +368,72 @@ ReginaViolinoI = {
   }
 }
 
-% ViolinoI = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoAgnus
+    es4\fE es\p g
+    d es8( b') b4~
+    b8 des, c( f) as( f)
+    e4 f8( c') c4
+    b b a! %5
+    as g8 b b g'
+    f a, b4 d
+    c b8 d d d
+    des g, g g g g
+    f4 f f %10
+    f f f
+    f g g
+    f8 c'\f c( as') as4
+    r8 des, des( b') b4
+    r16 as( g f) e( f g f) f4~ %15
+    f16 as( g f) e( f g f) f4~
+    f16 des( c b) \appoggiatura b as8 b16( g) as( f g e)
+    f8 c'\p c( as') as4
+    r8 d,,! d( d') d4
+    r8 c c( es) es4 %20
+    r8 es es c c c
+    h h h( g') g4
+    r8 d d( b'!) b4
+    r8 b,, b( b') b4
+    r8 b b( es) es4 %25
+    d8 g,4 as h8~
+    h c4 b a8
+    b4 a a
+    g8 d'\f d( b') b4
+    r8 es, es( c') c4 %30
+    r16 b( a g) fis( g a g) g4~
+    g16 \slurDashed b( a g) fis( g a g) \slurSolid g4~
+    g16 es( d c) \appoggiatura c b8 c16( a) b( g) a( fis)
+    g8 d\p d( b') b4
+    r8 f f( c') c4 %35
+    r8 f, f( d') d4
+    r8 g, g g g g
+    f4 c-\tenuto b
+    c d\f es!
+    f8 b b( b') b4 %40
+    r8 c, c( c') c4
+    r8 d, d( d') d4
+    r8 d, es4 d
+    d c r
+    f16(\pocoP des' c b) a( b c b) b4~ %45
+    b16 \slurDashed des( c b) a( b c b) b4~
+    b16 des( c b) a( b c b) \slurSolid b8 des,
+    des4\trill c r
+    es2.\f
+    es %50
+    d!~
+    d8 c b4 a
+    b8 d d( d') d4
+    r8 d,\p d( d') d4
+    r8 d,\f d( d') d4 %55
+    r8 d,\p d( d') d4
+    r8 c,,\f c( c') c( a)
+    a( f) f( c) c( a)
+    a f' f d' c b
+    a4 es' d %60
+    c2.\trill
+    d8 b\p b f f d
+    d2.\fermata \bar "|." %63 FINIS
+  }
+}

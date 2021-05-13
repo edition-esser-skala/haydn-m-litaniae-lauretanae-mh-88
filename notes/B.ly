@@ -452,13 +452,54 @@ ReginaBassoLyrics = \lyricmode {
   bis. %88 finis
 }
 
-% BassoNotes = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusBassoNotes = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*39 %39
+    r4 \mvTr as'4\fE^\tutti d, %40
+    es e e
+    f fis fis
+    g( es!) e
+    f f r
+    R2.*4 %48
+    ges2.\fE
+    a, %50
+    b
+    es4 f2
+    b,4 r r
+    r b' b
+    g2. %55
+    g
+    R
+    a,~
+    a4 b e
+    f2 f4 %60
+    f2.
+    b,
+    R\fermata \bar "|." %63 FINIS
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus %40
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta
+  mun -- di:
+
+  Mi --
+  se -- %50
+  re --
+  re no --
+  bis,
+  mi -- se --
+  re -- %55
+  re,
+
+  mi --
+  _ se --
+  re -- re %60
+  no --
+  bis. %62 FINIS
+}

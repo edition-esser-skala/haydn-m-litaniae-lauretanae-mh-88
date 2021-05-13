@@ -145,3 +145,29 @@ ReginaClarinoII = {
     e4 r\fermata \bar "|." %99 finis
   }
 }
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*42 %42
+    r4 d'\fE c
+    c g r
+    c,\p r r %45
+    c r r
+    c r c
+    g r r
+    R2.*2 %50
+    e''2.~\fE
+    e8 d c4 g
+    e r r
+    e\p r r
+    c'\f r r %55
+    c\p r r
+    R2.*3
+    d4.\fE d8 c4~ %60
+    c g g
+    e r e\p
+    e2.\fermata \bar "|." %63 FINIS
+  }
+}

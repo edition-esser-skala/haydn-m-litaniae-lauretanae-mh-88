@@ -690,6 +690,7 @@ tempoKyrie = \tempoMarkup "Allegro molto"
 tempoSancta = \tempoMarkup "Andante"
 tempoVirgo = \tempoMarkup "Allegretto"
 tempoRegina = \tempoMarkup "Allegro"
+tempoAgnus = \tempoMarkup "Adagio"
 
 
 accomp =  \markup \remark  "accomp."
