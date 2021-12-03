@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-TenoreIncipit = \markup {
-  "Tenore" \hspace #-18.2 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef tenor s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
 KyrieTenoreNotes = {
   \relative c' {
     \clef "treble_8"
@@ -142,7 +131,7 @@ SanctaTenoreNotes = {
     b b4 b8 e,[( f16 g] a[ g f e]
     f8[ d')] b g f4( e)\trill
     d r r2
-    R1*26 \bar "|" %55 finis
+    R1*26 \bar "||" %55 finis
   }
 }
 

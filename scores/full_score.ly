@@ -1,38 +1,25 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
-\paper {
-  #(set-paper-size "a4landscape")
-  top-margin = 1\cm
-  bottom-margin = .5\cm
-  outer-margin = 2\cm
-  inner-margin = 1.5\cm
-  indent = 1\cm
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "K Y R I E"
-    }
+    \section "1" "Kyrie"
+    \addTocEntry
     \paper { indent = 3\cm }
-    \tocSection "1" "Kyrie"
     \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in B" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "B" "flat"
             % \transpose c b,
             \partCombine \KyrieClarinoI \KyrieClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in B–F" }
+          \set Staff.instrumentName = \transposedTimp "B" "flat" "F" ""
           % \transpose c b,
           \KyrieTimpani
         }
@@ -51,25 +38,19 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
           }
           \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitAlto
             \new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
           }
           \new Lyrics \lyricsto Alto \KyrieAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
@@ -94,16 +75,17 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "S A N C T A   M A R I A"
+    \section "2" "Sancta Maria"
+    \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
     }
-    \paper { systems-per-page = #2 }
-    \tocSection "2" "Sancta Maria"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -142,14 +124,11 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "V I R G O   P R U D E N T I S S I M A"
-    }
-    \tocSection "3" "Virgo prudentissima"
+    \section "3" "Virgo prudentissima"
+    \addTocEntry
     \score {
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "clno 1"
@@ -157,7 +136,7 @@
             \partCombine \VirgoClarinoI \VirgoClarinoII
           >>
         >>
-        \new Staff \with { \smallStaffDistance } {
+        \new Staff {
           \set Staff.instrumentName = "timp"
           % \transpose c b,
           \VirgoTimpani
@@ -220,14 +199,11 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "R E G I N A   A N G E L O R U M"
-    }
-    \tocSection "4" "Regina angelorum"
+    \section "4" "Regina Angelorum"
+    \addTocEntry
     \score {
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "clno 1"
@@ -235,7 +211,7 @@
             \partCombine \ReginaClarinoI \ReginaClarinoII
           >>
         >>
-        \new Staff \with { \smallStaffDistance } {
+        \new Staff {
           \set Staff.instrumentName = "timp"
           % \transpose c b,
           \ReginaTimpani
@@ -298,11 +274,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "A G N U S   D E I"
-    }
-    \tocSection "5" "Agnus Dei"
+    \section "5" "Agnus Dei"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<

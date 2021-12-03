@@ -1,31 +1,34 @@
-composer: Haydn, Johann Michael
-title: Litaniae lauretanae
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Litaniæ lauretanæ
 id: MH 88 (74)
 genre: litany
-scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 clno (B), timp (B–F), 2 vl, b, org
+scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 clno (\flat B), timp (\flat B–F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 450
-    type: autograph manuscript
     date: 1765
     rism: 456009470
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084984-1
-  2:
+    license: CC BY-NC-SA 4.0
+    principal: true
+  A2:
     siglum: D-Mbs
     shelfmark: Mus.ms. 449
-    type: autograph manuscript
     date: 1765-12-06
     rism: 456009469
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00002140-1
-  3:
+    license: CC BY-NC-SA 4.0
+  B1:
     siglum: A-SPD
     shelfmark: SP (H-19)
-    type: manuscript copy
     date: 1840–1858
     rism: 455042304
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H19/
-github: haydn-m-litaniae-lauretanae-MH-88_74
+    license: public domain
 imslp: Litaniae_lauretanae,_MH_88_(Haydn,_Michael)
-notes:
-
+parts:
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F

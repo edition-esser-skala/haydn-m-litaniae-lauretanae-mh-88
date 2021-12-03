@@ -122,7 +122,7 @@ SanctaViolinoII = {
     e c h c c,8 r b'4 b
     \tuplet 3/2 8 { b16[ c d] c b a } g8 r b4 b8 b
     \tuplet 3/2 8 { b16[ c d] c b a g[ a b] a g f e[ f g] f e d c[ d c] b c b }
-    a8 f'4 e8 f f16. g32 \tuplet 3/2 8 { a16[ b c] b a g } \bar "|" %55 finis
+    a8 f'4 e8 f f16. g32 \tuplet 3/2 8 { a16[ b c] b a g } \bar "||" %55 finis
   }
 }
 

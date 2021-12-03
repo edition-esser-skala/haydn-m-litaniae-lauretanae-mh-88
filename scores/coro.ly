@@ -1,70 +1,12 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #3
-}
-
-\layout {
-  \context {
-    \Lyrics
-    \override LyricText.font-size = #-.5
-  }
-  \context {
-    \ChoirStaff
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-         (minimum-distance . 12)
-         (padding . -100)
-         (stretchability . 0))
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 13)
-         (minimum-distance . 13)
-         (padding . -100)
-         (stretchability . 0))
-  }
-  \context {
-    \Staff
-    instrumentName = "org"
-  }
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/coro.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "K Y R I E"
-    }
+    \section "1" "Kyrie"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -102,13 +44,11 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "S A N C T A   M A R I A"
-    }
+    \section "2" "Sancta Maria"
+    \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #23
-      system-system-spacing.minimum-distance = #23
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
       systems-per-page = #4
     }
     \score {
@@ -132,19 +72,9 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "V I R G O   P R U D E N T I S S I M A"
-    }
-    \paper {
-      top-system-spacing.basic-distance = #15
-      top-system-spacing.minimum-distance = #15
-      markup-system-spacing.basic-distance = #15
-      markup-system-spacing.minimum-distance = #15
-      system-system-spacing.basic-distance = #23
-      system-system-spacing.minimum-distance = #23
-      systems-per-page = #2
-    }
+    \section "3" "Virgo prudentissima"
+    \addTocEntry
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new ChoirStaff <<
@@ -184,19 +114,9 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "R E G I N A   A N G E L O R U M"
-    }
-    \paper {
-      top-system-spacing.basic-distance = #15
-      top-system-spacing.minimum-distance = #15
-      markup-system-spacing.basic-distance = #15
-      markup-system-spacing.minimum-distance = #15
-      system-system-spacing.basic-distance = #23
-      system-system-spacing.minimum-distance = #23
-      systems-per-page = #2
-    }
+    \section "4" "Regina Angelorum"
+    \addTocEntry
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new ChoirStaff <<
@@ -236,10 +156,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "A G N U S   D E I"
-    }
+    \section "5" "Agnus Dei"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<

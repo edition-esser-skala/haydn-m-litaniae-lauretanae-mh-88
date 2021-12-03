@@ -182,7 +182,7 @@ SanctaOrgano = {
     c16 c' h c c,4 r8 d'16 c b a g f
     e4 r8 b'16 c d c b c b a g f
     e4 r8 f c4 r8 e
-    f d' b c f, f16. g32 \tuplet 3/2 8 { a16[ b c] b a g } \bar "|" %55 finis
+    f d' b c f, f16. g32 \tuplet 3/2 8 { a16[ b c] b a g } \bar "||" %55 finis
   }
 }
 

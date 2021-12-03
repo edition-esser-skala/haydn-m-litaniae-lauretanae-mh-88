@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-AltoIncipit = \markup {
-  "Alto" \hspace #-16.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef alto s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
 KyrieAltoNotes = {
   \relative c' {
     \clef treble
@@ -144,7 +133,7 @@ SanctaAltoNotes = {
     e4 \tuplet 6/4 4 { a16[ b c b a g] } f4 h\trill
     c2~ c16[ b a g] \appoggiatura b a8[ g16 f]
     g2\trill f4 r
-    R1*7 \bar "|" %55 finis
+    R1*7 \bar "||" %55 finis
   }
 }
 
