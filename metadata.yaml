@@ -2,7 +2,7 @@ composer:
   last: Haydn
   first: Johann Michael
 title: Litaniæ lauretanæ
-id: MH 88 (74)
+id: MH 88
 genre: litany
 scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 clno (\flat B), timp (\flat B–F), 2 vl, b, org
 license: cc-by-nc-sa-4.0
@@ -10,7 +10,7 @@ sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 450
-    date: 1765
+    date: ca. 1765–1768
     rism: 456009470
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084984-1
     license: CC BY-NC-SA 4.0
